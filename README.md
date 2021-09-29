@@ -77,8 +77,8 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 |ELK_Playbook tasks    |
 |----------|
-| Install docker.io |
-| Install Python-pip  |
+| Install: docker.io |
+| Install: Python-pip  |
 | Install: docker |
 |Launch docker container: elk|
 
