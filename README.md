@@ -30,7 +30,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly efficient, in addition to restricting access to the network.
+Load balancing ensures that the application will be highly efficient, increase availability, in addition to restricting access to the network.
 
 The Jump Box is a tool used to connect to devices within a security zone. Because it was set up with SSH Keys instead of passwords, it protects the machines from DDoS attacks.
 
@@ -100,7 +100,7 @@ We have installed the two Beats on these machines.  These Beats allow us to coll
 - **Metricbeat**: collects machine metrics. For example, Metricbeat can be used to monitor and analyze system CPU, memory and load.
 
 The Kibana dashboard provides lots of system information, including: heatmap, sankey chart, response codes, unique visitors, total requests, etc. 
-These data points are helpful for things like a [Kibana Exploration Activity](https://github.com/joshblack07/UR-Cyber-Security-ELK-Stack-Project/blob/main/Additional%20Resources/Kibana%20Exploration.docx)
+These data points are helpful for things like a [Kibana Exploration Activity](https://github.com/joshblack07/UR-Cyber-Security-ELK-Stack-Project/blob/main/Additional%20Resources/Kibana%20Exploration.docx).  Note, this dashboard is also accessible [online](http://13.83.81.121:5601/app/kibana)via a whitelisted IP for my local workstation over port 5601.
 
 ### Using the Playbook
 
