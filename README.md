@@ -99,10 +99,6 @@ We have installed the two Beats on these machines.  These Beats allow us to coll
 
 - **Metricbeat**: collects machine metrics. For example, Metricbeat can be used to monitor and analyze system CPU, memory and load.
 
-![alt text](https://github.com/joshblack07/UR-Cyber-Security-ELK-Stack-Project/blob/main/Additional%20Resources/heatmap.PNG "Heat Map")
-
-![alt text](https://github.com/joshblack07/UR-Cyber-Security-ELK-Stack-Project/blob/main/Additional%20Resources/location.PNG "Location")
-
 The Kibana dashboard provides lots of system information, including: heatmap, sankey chart, response codes, unique visitors, total requests, etc. 
 These data points are helpful for things like a [Kibana Exploration Activity](https://github.com/joshblack07/UR-Cyber-Security-ELK-Stack-Project/blob/main/Additional%20Resources/Kibana%20Exploration.docx)
 
