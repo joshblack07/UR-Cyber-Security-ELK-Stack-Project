@@ -93,7 +93,7 @@ This ELK server is configured to monitor the following machines:
 | Web-1    | Server   | 10.0.0.7   |
 | Web-2    | Server   | 10.0.0.6   |
 
-We have installed the two Beats on these machines  These Beats allow us to collect the following information from each machine:
+We have installed the two Beats on these machines.  These Beats allow us to collect the following information from each machine:
 
 - **Filebeat**: can handle audit logs, deprecation logs, gc logs, server logs, and slow logs. 
 
